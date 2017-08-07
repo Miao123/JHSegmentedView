@@ -15,6 +15,9 @@
 		DD743B711F37055F00D4651A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD743B6F1F37055F00D4651A /* LaunchScreen.storyboard */; };
 		DD743B7C1F37055F00D4651A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD743B7B1F37055F00D4651A /* ____Tests.m */; };
 		DD743B871F37055F00D4651A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD743B861F37055F00D4651A /* ____UITests.m */; };
+		DD743B961F3707CA00D4651A /* SegmentetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD743B951F3707CA00D4651A /* SegmentetView.m */; };
+		DD743B991F37140600D4651A /* UIView+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = DD743B981F37140600D4651A /* UIView+NJ.m */; };
+		DD743B9C1F37163600D4651A /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DD743B9B1F37163600D4651A /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		DD743B821F37055F00D4651A /* 分段视图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "分段视图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD743B861F37055F00D4651A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		DD743B881F37055F00D4651A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD743B941F3707CA00D4651A /* SegmentetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentetView.h; sourceTree = "<group>"; };
+		DD743B951F3707CA00D4651A /* SegmentetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentetView.m; sourceTree = "<group>"; };
+		DD743B971F37140600D4651A /* UIView+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NJ.h"; sourceTree = "<group>"; };
+		DD743B981F37140600D4651A /* UIView+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NJ.m"; sourceTree = "<group>"; };
+		DD743B9A1F37163600D4651A /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		DD743B9B1F37163600D4651A /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				DD743B651F37055F00D4651A /* AppDelegate.m */,
 				DD743B671F37055F00D4651A /* ViewController.h */,
 				DD743B681F37055F00D4651A /* ViewController.m */,
+				DD743B941F3707CA00D4651A /* SegmentetView.h */,
+				DD743B951F3707CA00D4651A /* SegmentetView.m */,
+				DD743B971F37140600D4651A /* UIView+NJ.h */,
+				DD743B981F37140600D4651A /* UIView+NJ.m */,
+				DD743B9A1F37163600D4651A /* UIViewExt.h */,
+				DD743B9B1F37163600D4651A /* UIViewExt.m */,
 				DD743B6A1F37055F00D4651A /* Main.storyboard */,
 				DD743B6D1F37055F00D4651A /* Assets.xcassets */,
 				DD743B6F1F37055F00D4651A /* LaunchScreen.storyboard */,
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					DD743B5D1F37055F00D4651A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DD743B761F37055F00D4651A = {
@@ -274,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD743B691F37055F00D4651A /* ViewController.m in Sources */,
+				DD743B961F3707CA00D4651A /* SegmentetView.m in Sources */,
+				DD743B991F37140600D4651A /* UIView+NJ.m in Sources */,
 				DD743B661F37055F00D4651A /* AppDelegate.m in Sources */,
+				DD743B9C1F37163600D4651A /* UIViewExt.m in Sources */,
 				DD743B631F37055F00D4651A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "分段视图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MiaoJH.----";
@@ -435,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "分段视图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MiaoJH.----";
@@ -507,6 +528,7 @@
 				DD743B8D1F37055F00D4651A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD743B8E1F37055F00D4651A /* Build configuration list for PBXNativeTarget "分段视图Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +537,7 @@
 				DD743B901F37055F00D4651A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD743B911F37055F00D4651A /* Build configuration list for PBXNativeTarget "分段视图UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +546,7 @@
 				DD743B931F37055F00D4651A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
